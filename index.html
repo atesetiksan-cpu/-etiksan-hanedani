@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Etiksan Hanedanı ve Fire Studio resmi portalı. Projeler, duyurular, arşiv ve açık kaynak yapay zeka asistanı." />
+  <meta name="description" content="Etiksan Hanedanı ve Fire Studio resmi portalı. Projeler, duyurular, arşiv ve yapay zeka asistanı." />
   <meta name="theme-color" content="#050006" />
   <title>Etiksan Hanedanı | Fire Studio Portal</title>
   <style>
@@ -14,14 +14,14 @@
   <div class="stars" id="stars"></div><div class="matrix" id="matrix"></div>
   <nav aria-label="Ana menü"><div class="logo"><div class="logo-icon">♛</div><span>Etiksan Hanedanı</span></div><div class="links"><a href="#ana">Ana</a><a href="#uyeler">Üyeler</a><a href="#fire">Fire Studio</a><a href="#news">News</a><a href="#ai">AI</a><button class="nav-btn" onclick="openLogin()">Giriş</button></div></nav>
   <main>
-    <section id="ana" class="hero"><div class="hero-card"><div class="crown">♛</div><h1>Etiksan Hanedanı</h1><div class="line"></div><p class="subtitle">Güç • Asalet • Miras</p><div class="status-strip"><div class="status-pill"><span class="online-dot"></span>Portal Online</div><div class="status-pill">Fire Studio Aktif</div><div class="status-pill">Sürüm 2.4</div></div><div class="cta-row"><a class="btn" href="#fire">Fire Studio'yu Aç</a><a class="btn" href="#news">Etiksan News</a><button class="btn" onclick="openLogin()">Kurucu Girişi</button></div></div></section>
+    <section id="ana" class="hero"><div class="hero-card"><div class="crown">♛</div><h1>Etiksan Hanedanı</h1><div class="line"></div><p class="subtitle">Güç • Asalet • Miras</p><div class="status-strip"><div class="status-pill"><span class="online-dot"></span>Portal Online</div><div class="status-pill">Fire Studio Aktif</div><div class="status-pill">Sürüm 2.5</div></div><div class="cta-row"><a class="btn" href="#fire">Fire Studio'yu Aç</a><a class="btn" href="#news">Etiksan News</a><button class="btn" onclick="openLogin()">Kurucu Girişi</button></div></div></section>
     <section id="uyeler"><div class="panel"><h2>Hanedan Üyeleri</h2><p>Etiksan Hanedanı; teknoloji, tarih, yaratıcılık, strateji ve dijital projeler üzerine kurulu özel bir evrendir.</p><div class="grid"><div class="card"><h3>Ateş Etiksan</h3><p>Kurucu lider. Büyük projelerin, stratejik planların ve Fire Studio vizyonunun merkezindeki isim.</p></div><div class="card"><h3>Kraliyet Konseyi</h3><p>Hanedanın kararlarını, projelerini ve gelecek planlarını şekillendiren özel kurul.</p></div><div class="card"><h3>Gizli Arşiv</h3><p>Önemli fikirler, eski belgeler, proje notları ve özel planlar burada saklanır.</p></div></div></div></section>
     <section id="fire"><div class="panel"><h2>🔥 Fire Studio</h2><p>Fire Studio; oyunlar, hikâyeler, yapay zeka sistemleri, simülasyonlar ve yaratıcı dijital evrenler üretmek için kurulmuş özel merkezdir.</p><div class="grid"><div class="card"><h3>Oyun Geliştirme</h3><p>Roblox, Minecraft ve gelecekteki büyük oyun projeleri için üretim alanı.</p></div><div class="card"><h3>AI Ajanları</h3><p>Yerel yapay zeka modelleri, görev yapan ajanlar ve otomasyon sistemleri.</p></div><div class="card"><h3>Sinema & Hikâye</h3><p>Karakterler, senaryolar, dijital evrenler ve Fire Cinema projeleri.</p></div></div><div class="terminal"><p>&gt; Fire Studio çekirdeği başlatıldı...</p><p>&gt; Etiksan Portal sistemi aktif.</p><p>&gt; Kraliyet arşivi bağlantısı hazır.</p></div></div></section>
-    <section id="news"><div class="panel"><h2>Etiksan News</h2><p>Hanedanın resmi haber merkezi. Buradan projeler, duyurular ve önemli gelişmeler yayınlanır.</p><div class="grid"><article class="news"><h3>Portal 2.4 Hazır</h3><p>AI cevapları artık işaretli sohbet kutusuna yazılır ve basit sorularda düzgün Türkçe cevap verir.</p></article><article class="news"><h3>Fire Studio Genişliyor</h3><p>Oyun, hikâye, yapay zeka ve dijital evren projeleri için yeni merkez oluşturuldu.</p></article><article class="news"><h3>Açık Kaynak Model</h3><p>Asistan Xenova/distilgpt2 modelini dener; uygun değilse yedek cevap sistemi devreye girer.</p></article></div></div></section>
-    <section id="ai"><div class="panel"><h2>Etiksan AI Asistanı</h2><p class="ai-status" id="aiStatus">Açık kaynak model: Xenova/distilgpt2. Sohbet cevapları aşağıdaki kutuya yazılır.</p><div class="ai-box"><input id="aiInput" placeholder="Asistana bir şey yaz..." aria-label="Asistan mesajı" /><button class="btn" id="askBtn" type="button">Sor</button></div><div class="ai-answer" id="aiAnswer"><div class="chat-row"><span class="chat-name">Etiksan AI</span>Hazırım. Sorunu yaz, cevabı burada göstereceğim.</div></div></div></section>
+    <section id="news"><div class="panel"><h2>Etiksan News</h2><p>Hanedanın resmi haber merkezi. Buradan projeler, duyurular ve önemli gelişmeler yayınlanır.</p><div class="grid"><article class="news"><h3>Portal 2.5 Hazır</h3><p>AI artık kişiye özel hitap etmez. Public siteye uygun genel asistan modunda çalışır.</p></article><article class="news"><h3>AI API Sistemi</h3><p>Site önce Vercel /api/chat üzerinden gerçek AI cevabı dener. Anahtar yoksa yedek cevap kullanır.</p></article><article class="news"><h3>Açık Kaynak Model</h3><p>API tarafı Hugging Face üzerinde açık kaynak model kullanacak şekilde hazırlandı.</p></article></div></div></section>
+    <section id="ai"><div class="panel"><h2>Etiksan AI Asistanı</h2><p class="ai-status" id="aiStatus">Genel ziyaretçi asistanı. Cevaplar aşağıdaki kutuya yazılır.</p><div class="ai-box"><input id="aiInput" placeholder="Asistana bir şey yaz..." aria-label="Asistan mesajı" /><button class="btn" id="askBtn" type="button">Sor</button></div><div class="ai-answer" id="aiAnswer"><div class="chat-row"><span class="chat-name">Etiksan AI</span>Merhaba. Size nasıl yardımcı olabilirim?</div></div></div></section>
   </main>
   <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><div class="login-box"><h2 id="loginTitle">Kurucu Girişi</h2><p>Bu bölüm yayın sürümünde güvenli demo olarak çalışır. Gerçek hesap sistemi için sunucu tarafı gerekir.</p><input id="username" placeholder="Kullanıcı adı" autocomplete="username" /><input id="password" placeholder="Şifre" type="password" autocomplete="current-password" /><div class="cta-row"><button class="btn" onclick="login()">Giriş Yap</button><button class="btn" onclick="closeLogin()">Kapat</button></div><p id="loginResult" class="small-note"></p></div></div>
-  <div class="admin-panel" id="adminPanel"><h3>Kurucu Paneli</h3><p>Hanedan kontrol merkezi görsel demo olarak aktif.</p><code>Yetki: Demo<br>Durum: Sistem Hazır<br>Portal: Etiksan v2.4<br>Fire Studio: Aktif</code></div>
+  <div class="admin-panel" id="adminPanel"><h3>Kurucu Paneli</h3><p>Hanedan kontrol merkezi görsel demo olarak aktif.</p><code>Yetki: Demo<br>Durum: Sistem Hazır<br>Portal: Etiksan v2.5<br>Fire Studio: Aktif</code></div>
   <footer>© 2026 Etiksan Hanedanı • Fire Studio tarafından tasarlandı<br><span style="font-size:14px;opacity:.75;">Açık kaynak model destekli statik site sürümü.</span></footer>
   <script>
     const stars=document.getElementById('stars'),matrix=document.getElementById('matrix');for(let i=0;i<100;i++){const s=document.createElement('div');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*3+'s';stars.appendChild(s)}const symbols=['ETIKSAN','FIRE','STUDIO','AI','PORTAL','♛','0101','ADMIN'];for(let i=0;i<34;i++){const r=document.createElement('div');r.className='code-rain';r.style.left=Math.random()*100+'%';r.style.animationDuration=6+Math.random()*8+'s';r.style.animationDelay=Math.random()*6+'s';r.textContent=symbols[Math.floor(Math.random()*symbols.length)];matrix.appendChild(r)}function openLogin(){document.getElementById('loginModal').classList.add('active')}function closeLogin(){document.getElementById('loginModal').classList.remove('active')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLogin()});function login(){const user=document.getElementById('username').value.trim();const pass=document.getElementById('password').value.trim();const result=document.getElementById('loginResult');if(!user||!pass){result.textContent='Kullanıcı adı ve şifre alanı boş bırakılamaz.';result.className='small-note warning';return}result.textContent='Demo modunda gerçek giriş yapılmaz. Yayın sürümünde güvenlik için şifre kod içinde tutulmadı.';result.className='small-note warning';document.getElementById('adminPanel').classList.add('active')}
@@ -32,82 +32,18 @@
     const askBtn=document.getElementById('askBtn');
     let generator=null;
     let loadingPromise=null;
-    const greetings=[
-      'Selam Ateş! Etiksan AI aktif. Bugün hangi projeyi büyütüyoruz?',
-      'Merhaba Kurucu Lider. Fire Studio komut bekliyor.',
-      'Selam! Buradayım. Site, Fire Studio, yapay zeka veya proje fikri konuşabiliriz.',
-      'Merhaba Ateş. Etiksan sistemi çalışıyor; sorunu yaz, birlikte çözelim.'
-    ];
+    const greetings=['Merhaba. Size nasıl yardımcı olabilirim?','Merhaba, hoş geldiniz. Sorunuzu yazabilirsiniz.','Selam. Etiksan AI hazır; ne hakkında konuşalım?','Merhaba. Proje, site, yapay zeka veya genel konularda yardımcı olabilirim.'];
     const pick=a=>a[Math.floor(Math.random()*a.length)];
-    function addChat(name,text,type){
-      const row=document.createElement('div');
-      row.className='chat-row '+(type||'');
-      const n=document.createElement('span');
-      n.className='chat-name';
-      n.textContent=name;
-      const t=document.createElement('span');
-      t.textContent=text;
-      row.appendChild(n);row.appendChild(t);
-      aiAnswer.appendChild(row);
-      aiAnswer.scrollTop=aiAnswer.scrollHeight;
-      return row;
-    }
-    function directAnswer(question){
-      const q=question.toLowerCase();
-      if(q==='merhaba'||q==='selam'||q==='sa'||q.includes('merhaba')||q.includes('selam'))return pick(greetings);
-      if(q.includes('fire studio'))return 'Fire Studio; oyun, site, yapay zeka, hikaye ve dijital evren projelerini topladığın ana merkez gibi çalışabilir.';
-      if(q.includes('hanedan'))return 'Etiksan Hanedanı; teknoloji, tarih, asalet ve proje yönetimi temasını birleştiren özel marka evrenin.';
-      if(q.includes('kimsin')||q.includes('nesin'))return 'Ben Etiksan AI Asistanı. Sitede çalışan açık kaynak model destekli yardımcıyım; gerektiğinde yedek Türkçe cevap sistemi de kullanırım.';
-      if(q.includes('ne yapabilirsin')||q.includes('neler yapabilirsin'))return 'Site fikri verebilirim, Fire Studio planı yapabilirim, kısa metin yazabilirim, proje önerisi çıkarabilirim ve basit sorularını cevaplayabilirim.';
-      return null;
-    }
-    function fallback(question){
-      const q=question.toLowerCase();
-      if(q.includes('?'))return 'Buna kısa cevap vereyim: '+question+' konusu için önce hedefi netleştirip küçük adımlara bölmek en mantıklısı. İstersen bunu proje planına çevirebiliriz.';
-      return 'Bunu not aldım: '+question+'. Bu fikir Fire Studio tarafında geliştirilebilir. İstersen bir sonraki adım, bunu görev listesine çevirmek olur.';
-    }
-    function badModelText(text){
-      if(!text)return true;
-      const clean=text.trim();
-      if(clean.length<12)return true;
-      if(clean.length>260)return true;
-      if(/^[A-Z.,()\s]+$/.test(clean))return true;
-      if(clean.includes('User:')||clean.includes('Assistant:'))return true;
-      return false;
-    }
-    async function importTransformers(){
-      const cdns=['https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2','https://unpkg.com/@xenova/transformers@2.17.2/dist/transformers.min.js'];
-      let lastError=null;for(const url of cdns){try{return await import(url)}catch(err){lastError=err}}throw lastError||new Error('Transformers.js yüklenemedi')
-    }
-    async function loadModel(){
-      if(generator)return generator;if(loadingPromise)return loadingPromise;
-      loadingPromise=(async()=>{aiStatus.textContent='Transformers.js yükleniyor...';const mod=await importTransformers();const{pipeline,env}=mod;env.allowRemoteModels=true;env.allowLocalModels=false;try{env.backends.onnx.wasm.numThreads=1;env.backends.onnx.wasm.proxy=false}catch(e){}aiStatus.textContent='Xenova/distilgpt2 modeli yükleniyor. İlk sefer uzun sürebilir.';generator=await pipeline('text-generation','Xenova/distilgpt2');aiStatus.textContent='Model aktif: Xenova/distilgpt2. Cevaplar sohbet kutusuna yazılıyor.';return generator})();return loadingPromise;
-    }
-    async function askAI(){
-      const question=aiInput.value.trim();
-      if(!question){addChat('Etiksan AI','Bir şey yazman gerekiyor.');return;}
-      addChat('Sen',question,'user');
-      aiInput.value='';
-      const direct=directAnswer(question);
-      if(direct){addChat('Etiksan AI',direct);return;}
-      const thinking=addChat('Etiksan AI','Model deneniyor...');
-      askBtn.disabled=true;
-      try{
-        const ai=await loadModel();
-        const prompt='A Turkish assistant answers clearly. Question: '+question+' Answer:';
-        const out=await ai(prompt,{max_new_tokens:70,do_sample:true,temperature:0.95,top_k:50,top_p:0.92,repetition_penalty:1.2});
-        let text=(out&&out[0]&&out[0].generated_text?out[0].generated_text:'').replace(prompt,'').trim();
-        text=text.split('\n')[0].trim();
-        if(badModelText(text))text=fallback(question);
-        thinking.querySelector('span:last-child').textContent=text;
-      }catch(err){
-        console.error(err);
-        aiStatus.textContent='Model yüklenemedi. Yedek cevap sistemi çalışıyor.';
-        thinking.querySelector('span:last-child').textContent=fallback(question);
-      }finally{askBtn.disabled=false;}
-    }
-    askBtn.addEventListener('click',askAI);
-    aiInput.addEventListener('keydown',e=>{if(e.key==='Enter')askAI()});
+    function addChat(name,text,type){const row=document.createElement('div');row.className='chat-row '+(type||'');const n=document.createElement('span');n.className='chat-name';n.textContent=name;const t=document.createElement('span');t.textContent=text;row.appendChild(n);row.appendChild(t);aiAnswer.appendChild(row);aiAnswer.scrollTop=aiAnswer.scrollHeight;return row;}
+    function directAnswer(question){const q=question.toLowerCase();if(q==='merhaba'||q==='selam'||q==='sa'||q.includes('merhaba')||q.includes('selam'))return pick(greetings);if(q.includes('fire studio'))return 'Fire Studio; oyun, web sitesi, yapay zeka, hikaye ve dijital evren projelerini bir araya getiren yaratıcı bir merkez olarak düşünülebilir.';if(q.includes('hanedan'))return 'Etiksan Hanedanı; teknoloji, tarih, asalet ve dijital proje temasını birleştiren özel bir marka evrenidir.';if(q.includes('kimsin')||q.includes('nesin'))return 'Ben Etiksan AI Asistanı. Bu sitede ziyaretçilere yardımcı olmak için hazırlanmış genel bir yapay zeka arayüzüyüm.';if(q.includes('ne yapabilirsin')||q.includes('neler yapabilirsin'))return 'Site ve proje fikirleri verebilirim, kısa metinler oluşturabilirim, Fire Studio planları yapabilirim ve genel sorulara yardımcı cevaplar üretebilirim.';return null;}
+    function fallback(question){const q=question.toLowerCase();if(q.includes('?'))return 'Bu soru için kısa cevap: Konuyu netleştirip adım adım ilerlemek en iyi yöntem olur. İstersen bu soruyu daha detaylı bir plana çevirebilirim.';return 'Bunu not aldım: '+question+'. Bu fikir geliştirilebilir; istersen sonraki adım olarak bunu madde madde planlayabilirim.';}
+    function badModelText(text){if(!text)return true;const clean=text.trim();if(clean.length<12)return true;if(clean.length>600)return true;if(/^[A-Z.,()\s]+$/.test(clean))return true;if(clean.includes('User:')||clean.includes('Assistant:'))return true;return false;}
+    async function askServerAI(question){const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:question})});const data=await r.json().catch(()=>({}));if(!r.ok||!data.answer)throw new Error(data.setup||data.error||'API cevabı alınamadı.');return data.answer;}
+    async function importTransformers(){const cdns=['https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2','https://unpkg.com/@xenova/transformers@2.17.2/dist/transformers.min.js'];let lastError=null;for(const url of cdns){try{return await import(url)}catch(err){lastError=err}}throw lastError||new Error('Transformers.js yüklenemedi')}
+    async function loadModel(){if(generator)return generator;if(loadingPromise)return loadingPromise;loadingPromise=(async()=>{aiStatus.textContent='Tarayıcı modeli yükleniyor...';const mod=await importTransformers();const{pipeline,env}=mod;env.allowRemoteModels=true;env.allowLocalModels=false;try{env.backends.onnx.wasm.numThreads=1;env.backends.onnx.wasm.proxy=false}catch(e){}generator=await pipeline('text-generation','Xenova/distilgpt2');aiStatus.textContent='Yedek tarayıcı modeli aktif. API anahtarı eklenirse daha güçlü cevap verir.';return generator})();return loadingPromise;}
+    async function askBrowserModel(question){const ai=await loadModel();const prompt='Turkish answer. Question: '+question+' Answer:';const out=await ai(prompt,{max_new_tokens:70,do_sample:true,temperature:0.95,top_k:50,top_p:0.92,repetition_penalty:1.2});let text=(out&&out[0]&&out[0].generated_text?out[0].generated_text:'').replace(prompt,'').trim();text=text.split('\n')[0].trim();if(badModelText(text))throw new Error('Tarayıcı modeli yeterli cevap üretemedi.');return text;}
+    async function askAI(){const question=aiInput.value.trim();if(!question){addChat('Etiksan AI','Bir şey yazmanız gerekiyor.');return;}addChat('Ziyaretçi',question,'user');aiInput.value='';const direct=directAnswer(question);if(direct){addChat('Etiksan AI',direct);return;}const thinking=addChat('Etiksan AI','Cevap hazırlanıyor...');askBtn.disabled=true;try{aiStatus.textContent='Vercel API üzerinden AI cevabı deneniyor...';const serverAnswer=await askServerAI(question);thinking.querySelector('span:last-child').textContent=serverAnswer;aiStatus.textContent='Cevap Vercel API üzerinden üretildi.';}catch(apiErr){try{aiStatus.textContent='API hazır değil. Tarayıcıdaki açık kaynak model deneniyor...';const browserAnswer=await askBrowserModel(question);thinking.querySelector('span:last-child').textContent=browserAnswer;}catch(modelErr){aiStatus.textContent='API anahtarı yok veya model cevap veremedi. Yedek cevap gösteriliyor.';thinking.querySelector('span:last-child').textContent=fallback(question);}}finally{askBtn.disabled=false;}}
+    askBtn.addEventListener('click',askAI);aiInput.addEventListener('keydown',e=>{if(e.key==='Enter')askAI()});
   </script>
 </body>
 </html>
